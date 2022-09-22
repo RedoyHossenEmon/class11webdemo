@@ -1,0 +1,221 @@
+*{margin:0; padding:0;font-family: arial;}html {overflow-x: hidden;}
+
+.topImg{
+    width: 100%;
+    height: max-content;
+    display: inline-block;
+    /* background: green; */
+    margin-bottom:-4px;
+    overflow: hidden;
+}
+
+img.logo {
+    width: 16%;
+    height: 70px;
+    float: left;
+    border-bottom: 1px solid green;
+    overflow: hidden;
+}
+
+
+ul {
+    width: 56%;
+    font-size: 20px;
+    list-style: none;
+    float: right;
+}
+ul li {
+    width: max-content;
+    float: left;
+    padding-top: 27px;
+}
+li a{
+    width: max-content;
+    padding: 27px 20px;
+    font-family: arial black;
+    color: darkolivegreen;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+}
+ul li a:hover{
+    background: deepskyblue;
+    color:darkblue;
+}
+
+.container{
+    width: 100%;
+    height: 355px;
+    background-image: url(images/slider-banner.jpg);
+    padding-top: 70px;
+    background-position: bottom;
+    background-size: cover;
+ 
+}
+.allText{
+       padding-left: 45px; 
+       width: 100%;
+}
+.container h2 {
+    font-size: 90px;
+    font-family: system-ui;
+    color: #ffffffba;
+    font-weight: 600;
+    letter-spacing: -6px;
+    line-height: 1.1;
+}
+
+.container span {
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 56px;
+}
+
+.container a {
+    background: dodgerblue;
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+    transition: .2s;
+}
+.container a:hover {
+    color: dodgerblue;
+    background:white;
+}
+
+.service {
+    width: 100%;
+    height: 410px;
+    /* margin-top: 30px; */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sectionHeading {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sbox {
+    width: 300px;
+    padding: 20px 19px;
+    background: tomato;
+    color: white;
+    float: left;
+    margin: 0px 20px;
+    transition: .2s;
+}
+
+.sbox h3 {
+    font-size: 28px;
+    padding: 22px;
+}
+
+.sbox p {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0px 10px;
+}
+.sbox:hover{
+  
+    background:blueviolet;
+}.pBoxWrap {
+    width: 96%;
+    display: flex;
+    padding: 0px 27px;
+    gap: 3px;
+}
+
+.pBox {
+    padding: 61px 50px;
+    background: gainsboro;
+}
+
+.pBox h3 {
+    font-size: 38px;
+}
+
+.pBox p {
+    width: 64%;
+    font-size: 22px;
+    margin-top: 23px;
+    color: #000000bd;
+    margin-bottom: 45px;
+}
+.lrnBtn {
+    font-size: 18px;
+    color: white;
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .2s;
+}
+.lrnBtn:hover{color: white; background: dodgerblue;}
+.tBoxWrap {
+    width: 96%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.tBox {
+    width: 100%;
+    /* border: 1px solid gray; */
+    box-shadow: 2px 1px 6px 0px;
+    padding-bottom: 20px;
+}
+
+.tBox img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 13px;
+}
+
+.tBox h4 {
+    font-size: 24px;
+    color: darkred;
+    margin-bottom: 12px;
+}
+
+.tBox p {
+    font-size: 17px;
+    padding: 0px 28px;
+    margin-bottom: 45px;
+    color: gray;
+}
+.foteer {
+    width: 100%;
+    padding: 30px;
+    background: #1a1a1a;
+    color: white;
+    margin-top: 30px;
+}
+
+.foteer span {
+    width: max-content;
+    float: left;
+    margin-left: 50px;
+}
+
+.foterWrap {
+    width: max-content;
+    float: right;
+    margin-right: 100px;
+}
+
+.foterWrap a {
+    text-decoration: none;
+    color: white;
+    margin: 13px;
+}
